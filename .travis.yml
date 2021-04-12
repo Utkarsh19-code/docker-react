@@ -1,10 +1,5 @@
 language: node_js
 
-node_js:
-  - "alpine"
-
-sudo: required
-
 services:
   - docker
 
