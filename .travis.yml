@@ -1,4 +1,7 @@
-language: generic
+language: node_js
+
+node_js:
+  - "alpine"
 
 sudo: required
 
