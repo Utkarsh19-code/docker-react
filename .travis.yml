@@ -1,3 +1,5 @@
+language: generic
+
 sudo: required
 
 services:
@@ -8,5 +10,3 @@ before_install:
 
 script:
   - docker run -e CI=true utkarsh19-code/docker-react npm run test
-
-language: generic  
